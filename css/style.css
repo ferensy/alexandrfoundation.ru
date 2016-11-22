@@ -1,0 +1,56 @@
+@font-face {
+	font-family: FontAwesome;
+	src: url(fonts/fontawesome-webfont.ttf);
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+}
+body {
+	font: 12px/18px FontAwesome, sans-serif;
+	width: 100%;
+	background: url(../images/main-bg.gif) no-repeat center center;
+}
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+.main_block {
+	width: 740px;
+	height: 440px;
+	margin: 5% auto 0;
+}
+.main_logo {
+	float: left;
+	width: 315px;
+	height: 316px;
+	padding-right: 70px;
+}
+.main_text {
+	font-size:25px;
+	height: 316px;
+}
+.main_text span {
+	font-size:46px;
+	padding: 80px 20px 50px 0;
+	float: left;
+	display: block;
+}
+hr {
+	background-color: #c9ac77;
+	height:3px;
+	width: 100px;
+	border: 0;
+	margin-bottom: 40px;
+}
+ul.main_menu {
+	width: 1200px;
+	display: block;
+}
+.main_menu  li {
+	display: inline;
+	padding: 0 20px;
+	font-size: 17px;
+}
