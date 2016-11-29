@@ -108,7 +108,9 @@ ul.main_menu {
 	padding: 0 4px;
 }
 header {
-	padding: 22px 44px; 
+	padding: 22px 44px;
+	width: 1178px;
+	margin: 0 auto;
 }
 header > div {
 	background: url(../images/logotype.png) no-repeat center;
@@ -123,6 +125,8 @@ header  ul  {
 .content {
 	background-color: #fefeff;
 	padding-top:100px;
+	padding-bottom: 35px;
+	
 }
 .content-about1 {
 	background-color: #fafbfb;
@@ -286,4 +290,217 @@ header  ul  {
 .viewall span {
 	line-height: 10px;
 	
+}
+.content-about4 {
+	height: 780px;
+	background: #f3f3f3;
+}
+.content-about4 h3 { 
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: normal;
+	margin-bottom: 44px;
+}
+.conts {
+	background: url(../images/reg.jpg) no-repeat left;
+	width: 1100px;
+	margin: 0 auto;
+	height: 592px;
+	padding: 94px 50px;
+}
+.conts div {
+	width: 584px;
+	float: right;
+}
+.content-about4 p {
+	margin-bottom: 25px;
+}
+.content-about5 {
+	width:1015px;
+	margin: 140px auto 0;
+}
+.quota {
+	background: url(../images/quota.png) no-repeat;
+	height: 176px;
+	text-align: center;
+	font-size: 25px;
+	padding: 49px 0 0 0;
+	line-height: 36px;
+}
+.podpis {
+	width: 180px;
+	height: 48pxl;
+	background: url(../images/podpis.jpg) no-repeat left;
+	padding-left: 60px;
+	padding-top: 2px;
+	text-align: left;
+	font-size: 16px;
+	margin-left: 750px;
+	margin-top: 39px;
+	margin-bottom: 170px;
+}
+.podpis span {
+	font-weight: bold;
+	display: block;
+	position: relative;
+	top: -4px;
+}
+.dir {
+	margin-bottom: 90px;
+}
+.dir span {
+	font-weight: bold;
+}
+.content-about5  h4{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.copir {
+	margin-bottom: 180px;	
+}
+footer {
+	width: 1200px;
+	margin: 0 auto;
+}
+#neymaxx, #smirnof, #maxima, #stroipred {
+	width: 300px;
+	padding-top: 175px;
+	margin: 0 50px;
+	text-align: center;
+}
+#neymaxx, #smirnof, #maxima {
+float: left;
+}
+#neymaxx span, #smirnof span, #maxima span, #stroipred span {
+	color: #7f8387;
+}
+#stroipred {
+	margin: 50px 0;
+}
+#neymaxx {
+	background: url(../images/partner-neymaxx.jpg) no-repeat;
+}
+#smirnof {
+	background: url(../images/partner-smirnov.jpg) no-repeat;
+}
+#maxima {
+	background: url(../images/partner-maxima.jpg) no-repeat;
+}
+#stroipred {
+	background: url(../images/partner-stroipred.jpg) no-repeat;
+}
+.marg {
+	margin-top: 125px;
+}
+.podprog {
+	width: 680px;
+	text-align: center;
+	margin: 25px auto 135px;
+	color: #7f8387;
+	font-size: 15px;
+}
+.prog1{
+	width: 610px;
+	float: left;
+	color: #42484f;
+}
+.prog2 {
+	padding: 23px 19px;
+	width: 300px;
+	float: right;
+	background-color: #f0f0f0;
+	color: #7f8387;
+}
+.prog-block {
+	padding: 0 71px 0 100px;
+}
+.block-paint {
+	height: 601px;
+	padding-top: 200px;
+	width: 1200px;
+	background: url(../images/paint.jpg) right no-repeat;
+}
+.bsp h2 {
+	font-size: 36px;
+	line-height: 48px;
+	font-weight: normal;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+.bsp {
+	width: 560px;
+	margin-left: 100px;
+	
+}
+.bsp ol {
+	color: #42484f;
+	margin-left: 18px;
+}
+.bsp ol  li{ 
+	margin-bottom: 18px;
+	line-height: 20px;
+}
+.bsp ul  li {
+	margin: 12px 2px;
+	list-style-type: none;
+}
+
+.bsp a {
+	color:#3981d2;
+	text-decoration: none;
+}
+.bsp a:hover {
+	color:#000;
+	text-decoration: underline;
+}
+.content-event, .content-eventssss {
+	padding: 57px 95px 55px;	
+}
+.back {
+	background: url(../images/back.jpg) left no-repeat;
+	padding: 13px 24px;
+	color: #42484f;
+	font-size: 15px;
+}
+.date {
+	font-size: 36px;
+	margin-top: 53px;
+	letter-spacing: 1px;
+}
+.content-event h1 {
+	font-size: 36px;
+	line-height: 48px;
+	margin-top: 12px;
+	margin-bottom: 25px;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+.event-info {
+	padding-top: 38px;
+	color: #42484f;
+}
+.content-eventssss  {
+	
+	
+}
+
+.content-eventssss h1 {
+	font-weight: normal;
+    font-size: 62px;
+	line-height: 48px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.block-eventsss {
+	margin-top: 95px;
+}
+.edate {
+	color: #7f8387;
+	font-size: 13px;
+}
+.etitle {
+	font-size:15px;
+	color: #42484f;
 }
